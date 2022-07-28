@@ -37,7 +37,7 @@
 //Append to list
    todoList.appendChild(todoDiv);
 // Clear todo  input value 
-   //todoInput.value = " ";
+   todoInput.value = " ";
   
 }
 

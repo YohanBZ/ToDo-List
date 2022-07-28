@@ -5,14 +5,14 @@
 }
 
 body {
-   background-image: linear-gradient(120deg, #e2c35d, #d88771);
+   background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
    color: white;
-   font-size: 'Poppins', sans-serif;
+   font-family: 'Nanum Pen Script', cursive;
    min-height: 100vh;
 }
 
 header {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 header,
@@ -32,14 +32,14 @@ form button {
 }
 
 form button {
-    color: #ff6f47;
+    color: #073366;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-   background: #d88771;
+   background: #f190ba;
    color: white;
 }
 
@@ -63,6 +63,7 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 0.5s ease;
+  border-radius: 6px;
 }
 
 .todo li {
@@ -71,7 +72,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #f70202;
   color: white;
   border: none;
   padding: 1rem;
@@ -117,7 +118,7 @@ select {
 }
 
 select {
-   color: #ff6f47;
+   color: #0574f7;
    width: 10rem;
    cursor: pointer;
    padding: 1rem;
@@ -126,7 +127,7 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background: #ff6f47;
+  background:#073366;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -136,5 +137,5 @@ select {
 
 .select:hover::after {
   background: white;
-  color: #ff6f47;
+  color: #f46da8;
 }
